@@ -326,7 +326,7 @@ entry exec () {
 
 ```javascript
 var res = 0
-iter i to 3 do      // iterates from 1 to 3 included
+iter i to 3 do      // iterates from 0 to 3 included
   res += i;
 done;               // res is 6
 ```
